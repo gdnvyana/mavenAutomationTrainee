@@ -1,3 +1,4 @@
+```markdown
 # mavenAutomationTrainee
 
 Автотесты для проекта «Консольный трекер задач» (Java).
@@ -16,5 +17,20 @@
 ## Как запустить тесты
 
 ### Через Maven
+
 ```bash
 mvn clean test
+```
+
+### Только позитивные тесты
+
+```bash
+mvn test -Dgroups=positive
+```
+
+### Только негативные тесты
+
+```bash
+mvn test -Dgroups=negative
+```
+```
