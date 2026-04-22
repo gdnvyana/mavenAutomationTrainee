@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Positive Tests Suite" verbose="1">
+
+    <test name="Run Positive Tests">
+        <groups>
+            <run>
+                <include name="positive"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.automation.BugTest"/>
+            <class name="com.automation.StoryTest"/>
+            <class name="com.automation.StatusTest"/>
+            <class name="com.automation.SerializationTest"/>
+        </classes>
+    </test>
+
+</suite>

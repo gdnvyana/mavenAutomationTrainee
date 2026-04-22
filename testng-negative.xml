@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Negative Tests Suite">
+    <test name="Negative Tests">
+        <groups>
+            <run>
+                <include name="negative"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.automation.BugTest"/>
+            <class name="com.automation.StoryTest"/>
+            <class name="com.automation.StatusTest"/>
+            <class name="com.automation.SerializationTest"/>
+        </classes>
+    </test>
+</suite>
